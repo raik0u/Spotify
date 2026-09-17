@@ -72,6 +72,17 @@ body {
     color:#838383;
 }
 
+.download {
+    border:1px solid  #ffffff;
+    width:20px;
+    height:20px;
+    background-color:transparent;
+    border-radius:10dvh;
+    align-content:center;
+    text-align:center;
+    margin-right:-10px;
+}
+
 .search-container input {
     width:100%;
     border:none;
@@ -92,6 +103,8 @@ body {
     display:flex;
     align-items:center ;
     gap:20px;
+    margin-top: 25px;
+    margin-right:10px;
 }
 
 .top-links a {
@@ -146,8 +159,12 @@ body {
     margin-left:15px;
 }
 
-.sidebar h3 {
-    margin: 0 0 30px 15px;
+.plus {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
 }
 
 .library-box {
@@ -155,6 +172,7 @@ body {
     padding:20px 18px;
     border-radius:8px;
     margin-bottom:20px;
+    margin-top:20px
 }
 
 .library-box h4 {
@@ -199,6 +217,8 @@ body {
     padding: 8px 15px;
 }
 
+
+/* main start */
 .main-content {
     flex: 1;
     background:#121212;
@@ -262,7 +282,9 @@ body {
     overflow:hidden;
     text-overflow:ellipsis;
 }
+/* main end */
 
+/* banner start */
 .bottom-banner {
     position:fixed;
     bottom:0;
@@ -296,3 +318,4 @@ body {
     font-weight:bold;
     font-size:14px;
 }
+/* banner end */
