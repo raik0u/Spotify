@@ -208,6 +208,32 @@ body {
     font-size:11px;
 }
 
+.sidebar-links1{
+    display:flex;
+    flex-wrap:wrap;
+    gap: 15px;
+    margin-top:20px;
+}
+
+.sidebar-links1 a {
+    color:#ffffff;
+    text-decoration:none;
+    font-weight:700;
+    font-size:15px;
+}
+
+.privacy {
+    border: 1px solid #1abc54;
+    border-radius: 25px;
+    padding: 2px 6px;
+    background-color: #1abc54;
+    text-decoration: none;
+
+}
+
+
+
+
 .language-button {
     margin-top:20px;
     background:transparent;
